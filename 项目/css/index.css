@@ -1,0 +1,30 @@
+.clearfix:before,
+.clearfix:after {
+
+    
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+
+    clear: both;
+}
+
+.clearfix {
+
+    *zoom: 1;
+}
+
+.dingbu {
+    width: 100%;
+}
+
+.dingbu-youxi span {
+    width: 30px;
+    height: 30px;
+  
+    background-color: #0000FF;
+    border-radius: 100%;
+    display: inline-block;
+}
