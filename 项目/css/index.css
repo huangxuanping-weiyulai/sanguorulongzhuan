@@ -1,30 +1,111 @@
-.clearfix:before,
-.clearfix:after {
-
-    
-    content: "";
-    display: table;
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
-.clearfix:after {
-
-    clear: both;
+a {
+    text-decoration:none;
 }
 
-.clearfix {
-
-    *zoom: 1;
-}
-
-.dingbu {
+.demo {
     width: 100%;
+    height: 55px;
+    background:rgba(178,130,139,0.9);
 }
 
-.dingbu-youxi span {
-    width: 30px;
-    height: 30px;
-  
-    background-color: #0000FF;
-    border-radius: 100%;
-    display: inline-block;
+.daohang {
+    float: left;
+    padding-left: 180px;
 }
+
+.daohang ul {
+    position: relative;
+    top: 16px;
+    width: 1200px;
+    height: 17px;
+    margin: 0 auto;
+    font-size: 0;
+    text-align: center;
+}
+
+.daohang a {
+    padding-top: 27.5px;
+    padding-right: 53px;
+    width: 90px;
+    height: 18px;
+    font-size: 16px;
+    line-height: 18px;
+    text-indent: 16px;
+    color: #f4c98f
+    
+}
+
+.beijing {
+    position: relative;
+}
+
+.beijing img {
+    width: 100%;
+    position: relative;
+}
+
+.logo img{
+    display: block;
+    position: absolute;
+    float: left;
+    top: -2300px;
+    width: 200px;
+    height: 120px;
+}
+
+.xiazai {
+    position: relative;
+}
+
+.xzk {
+    float: right;
+    display: block;
+    position: absolute;
+    top: -1891px;
+    padding-left: 909px ;
+}
+
+
+.pgxz {
+    float: right;
+    display: block;
+    position: absolute;
+    top: 7px;
+    padding-left: 125px;
+}
+
+.azxz {
+    float: right;
+    display: block;
+    position: absolute;
+    top: 66px;
+    padding-left: 125px;
+}
+
+.pcxz {
+    float: right;
+    display: block;
+    position: absolute;
+    top: 125px;
+    padding-left: 11px;;
+}
+
+.ewm {
+    float: right;
+    display: block;
+    position: absolute;
+    top: 8px;
+    padding-left: 10px;
+}
+
+.ewm-tupian {
+    width: 111px;
+    height: 111px;
+}
+
+
